@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/status", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/cookies", "destination": "/cookies.html" },
+    { "source": "/acceptable-use", "destination": "/acceptable-use.html" },
+    { "source": "/academic-integrity", "destination": "/academic-integrity.html" },
+    { "source": "/dpa", "destination": "/dpa.html" },
+    { "source": "/terms", "destination": "/terms.html" }
+  ]
+}
