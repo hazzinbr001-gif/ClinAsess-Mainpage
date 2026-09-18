@@ -22,9 +22,7 @@
     a{color:inherit;text-decoration:none} button{font:inherit} img{max-width:100%;display:block}
     .container{width:min(var(--max),calc(100% - 48px));margin:0 auto}
     .eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:11px;line-height:1;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#72d8ac}
-    .eyebrow:before{content:'';width:28px;height:2px;background:currentColor;border-radius:99px}
-    .pill{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid rgba(255,255,255,.15);border-radius:999px;color:rgba(255,255,255,.78);background:rgba(255,255,255,.07);font-size:12px;font-weight:600}
-    .pill .status{width:7px;height:7px;border-radius:50%;background:#7be0b0;box-shadow:0 0 0 4px rgba(123,224,176,.12)}
+    .eyebrow:before{display:none}
     .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:14px 21px;font-size:14px;font-weight:700;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
     .btn:hover{transform:translateY(-2px)}
     .btn-primary{color:#073020;background:#a6edc9;box-shadow:0 10px 24px rgba(2,27,18,.18)}
@@ -107,8 +105,6 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <span class="pill"><i class="status"></i> A structured assessment workflow</span>
-          <span class="eyebrow">Built for confident decisions</span>
           <h1>Clinical assessment, managed from <em>submission to review.</em></h1>
           <p>ClinAssess connects students, examiners, and institutions through one structured assessment workflow—from submission and review to integrity checks and completion.</p>
           <div class="hero-actions"><a class="btn btn-primary" href="#platform">Explore the platform <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a><a class="btn btn-outline" href="#workflow">See how it works <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h13M13 6l6 6-6 6"/></svg></a></div>
