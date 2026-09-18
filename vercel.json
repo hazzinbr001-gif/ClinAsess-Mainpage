@@ -2,12 +2,49 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/about", "destination": "/about.html" },
-    { "source": "/privacy", "destination": "/privacy.html" },
-    { "source": "/cookies", "destination": "/cookies.html" },
-    { "source": "/acceptable-use", "destination": "/acceptable-use.html" },
-    { "source": "/academic-integrity", "destination": "/academic-integrity.html" },
-    { "source": "/dpa", "destination": "/dpa.html" },
-    { "source": "/terms", "destination": "/terms.html" }
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html"
+    },
+    {
+      "source": "/cookies",
+      "destination": "/cookies.html"
+    },
+    {
+      "source": "/acceptable-use",
+      "destination": "/acceptable-use.html"
+    },
+    {
+      "source": "/academic-integrity",
+      "destination": "/academic-integrity.html"
+    },
+    {
+      "source": "/dpa",
+      "destination": "/dpa.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/product",
+      "destination": "/product.html"
+    },
+    {
+      "source": "/how-it-works",
+      "destination": "/how-it-works.html"
+    },
+    {
+      "source": "/integrity",
+      "destination": "/integrity.html"
+    },
+    {
+      "source": "/security",
+      "destination": "/security.html"
+    }
   ]
 }
